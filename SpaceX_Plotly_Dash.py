@@ -84,11 +84,12 @@ def update_pie_chart(selected_site):
 )
 def update_scatter_chart(selected_site, payload_range):
     if selected_site == 'ALL':
-        # Filtrar spacex_df según el rango de carga útil seleccionado
+        # Filter spacex_df according to the selected payload range
         filtered_df = spacex_df[(spacex_df['Payload Mass (kg)'] >= payload_range[0]) & (
                 spacex_df['Payload Mass (kg)'] <= payload_range[1])]
 
-        # Crear el gráfico de dispersión con todas las versiones de refuerzo y etiquetar los puntos por categoría de versión de refuerzo
+        # Create the scatter plot with all booster versions and label the points by booster version category
+
         fig = px.scatter(
             filtered_df,
             x='Payload Mass (kg)',
@@ -97,12 +98,12 @@ def update_scatter_chart(selected_site, payload_range):
             title='Payload vs. Launch Outcomes'
         )
     else:
-        # Filtrar spacex_df para el sitio específico seleccionado y dentro del rango de carga útil
+        # Filter spacex_df for the specific selected site and within the payload range
         filtered_df = spacex_df[(spacex_df['Launch Site'] == selected_site) & (
                 spacex_df['Payload Mass (kg)'] >= payload_range[0]) & (
                                            spacex_df['Payload Mass (kg)'] <= payload_range[1])]
 
-        # Crear el gráfico de dispersión y etiquetar los puntos por categoría de versión de refuerzo
+        # Create the scatter plot and label the points by booster version category
         fig = px.scatter(
             filtered_df,
             x='Payload Mass (kg)',
