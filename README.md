@@ -43,13 +43,13 @@ where ‘_less is more effective, more attractive, and more impactful_’.*
 In this capstone project, the aim is to predict the successful landing of the Falcon 9 first stage,   
 a key factor in reducing launch costs. 
 
-## Methodology
-The methodology is explained in the presentation.
-
-## Results and Conclusion 
-The Results and the Conclusion are included in the attached files.  
-I have made an effort to document them in the code files provided,  
+## Methodology and Results
+The methodology and the results are explained in the presentation.  
+I have made an effort to document the results in the code files provided,  
 ensuring that the results are explained within the code itself.
+
+## Conclusion 
+The Conclusion is included in the attached files.  
 
 ##  Innovative Insights
 In 'Lab 1: Collecting the Data,' we address the challenge of dealing with  
