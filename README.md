@@ -54,7 +54,7 @@ The Conclusion is included in the attached files.
 ##  Innovative Insights
 In 'Lab 1: Collecting the Data,' we address the challenge of dealing with  
 highly heterogeneous names of flights. It's noteworthy that launches from the East Coast  
-are significantly more successful than those from the West Coast.  This raises an intriguing question:  
+are significantly more successful than those from the West Coast.  This raises a question:  
 Could similar results have been achieved if the launches were conducted on the opposite coast?  
 <br />
 Another minor detail is the absence of seismic activity information, in the vast amount of data we have.  
